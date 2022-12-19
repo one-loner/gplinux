@@ -1,0 +1,9 @@
+---
+
+- hosts: 127.0.0.1
+  connection: local
+  tasks:
+  - name: "Install links2"
+    apt:
+       pkg: "links2"
+    become: no
